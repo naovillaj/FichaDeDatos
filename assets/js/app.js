@@ -18,4 +18,11 @@ imprimir.onclick = function(){
 	}else{
 		alert("Ingresar datos correctamente");
 	}
+
+	document.getElementById("nombre").value="";
+	document.getElementById("apellido").value="";
+	document.getElementById("dni").value="";
+	document.getElementById("direccion").value="";
+
+
 }
