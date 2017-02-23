@@ -8,7 +8,7 @@ imprimir.onclick = function(){
 	var dni = document.getElementById("dni").value;
 	var direccion = document.getElementById("direccion").value;
 
-	if(nombre != "" && apellido != "" && dni != "" && direccion != ""){
+	if(nombre != "" && apellido != "" && dni != "" && direccion != "" && dni.length==8){
 
 	records.innerHTML = "<ul><li>" + "Nombre: " + nombre +  "</li>" 
 							   + "<li>" + "Apellido: " + apellido + "</li>" 
