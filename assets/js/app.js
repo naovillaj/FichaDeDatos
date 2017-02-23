@@ -15,5 +15,7 @@ imprimir.onclick = function(){
 							   + "<li>" + "DNI: " + dni + "</li>" 
 							   + "<li>" + "Dirección: " + direccion + "</li></ul>" ;
 
+	}else{
+		alert("Ingresar datos correctamente");
 	}
 }
