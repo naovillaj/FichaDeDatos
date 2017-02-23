@@ -8,11 +8,11 @@
 	<h1>Ingresa tu información</h1>
 	<section>
 		<form action="" onsubmit="return false;">
-			<label for="nombre">Ingresa tu nombre:</label>
-			<input id="nombre" type="text"  required=""><br><br>
-			<label for="apellido">Ingresa tu apellido:</label>
-			<input id="apellido" type="text"  required=""><br><br>
-			<label for="dni">Ingresa tu DNI:</label>
+			<label for="nombre">Ingresa tu nombre:&nbsp;&nbsp;&nbsp;</label>
+			<input id="nombre" type="text" pattern="/[A-Za-zñÑ\sáéíóú]*/;" required=""><br><br>
+			<label for="apellido">Ingresa tu apellido:&nbsp;&nbsp;</label>
+			<input id="apellido" type="text" pattern="/[A-Za-zñÑ\sáéíóú]*/;" required=""><br><br>
+			<label for="dni">Ingresa tu DNI: &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</label>
 			<input id="dni" type="number" pattern="[0-8]{8}" maxlength="8" title="8 números" required=""><br><br>
 			<label for="direccion">Ingresa tu dirección:</label>
 			<input id="direccion" type="text" required=""><br><br>
